@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/drawable_rounded_corner"
+    android:padding="10dp"
+    android:layout_margin="12dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_aud_recording_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/iv_aud_play"
+        android:textColor="@android:color/black"
+        android:text="@string/title"
+        android:textSize="24sp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_aud_play"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_play" />
+</RelativeLayout>

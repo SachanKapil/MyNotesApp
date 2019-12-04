@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyNotes</string>
+    <string name="tap_to_stop_recording">Tap to stop recording</string>
+    <string name="tap_to_record_audio_note">Tap to record audio note</string>
+    <string name="title">Title</string>
+    <string name="under_development">Under development</string>
+</resources>
